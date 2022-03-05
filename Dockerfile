@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER Getty Images "https://github.com/gettyimages"
+MAINTAINER "https://github.com/rockdatio/"
 
 RUN apt-get update \
  && apt-get install -y locales \
