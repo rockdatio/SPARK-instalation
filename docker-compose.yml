@@ -27,7 +27,7 @@ services:
       - ./data:/tmp/data
 
   worker:
-    image: apache-spark-image
+    image: gettyimages/spark
     command: bin/spark-class org.apache.spark.deploy.worker.Worker spark://master:7077
     hostname: worker
     environment:
